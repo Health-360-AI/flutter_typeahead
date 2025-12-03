@@ -91,7 +91,7 @@ class _SuggestionsFieldHighlightConnectorState<T>
                 const SuggestionsNextItemIntent(),
           },
       },
-      const SingleActivator(LogicalKeyboardKey.enter): const ActivateIntent(),
+      // const SingleActivator(LogicalKeyboardKey.enter): const ActivateIntent(),
     };
   }
 
